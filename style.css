@@ -48,7 +48,7 @@ h1{font-size:clamp(2.4rem,7.2vw,6.6rem);margin-bottom:1.6rem}.ln{display:block;o
 .card h3{font-size:1.6rem;margin-bottom:.6rem}.card p{color:#aaa;font-size:.92rem;margin-bottom:1.2rem}
 .card u{position:absolute;left:0;bottom:0;height:2px;width:100%;background:var(--rd);transform:scaleX(0);transform-origin:left;transition:transform .5s}.card:hover u{transform:scaleX(1)}
 .perf{padding:0;height:320vh}.perf-stick{position:sticky;top:0;height:100svh;overflow:hidden;display:grid;align-items:center}
-.perf-bg{position:absolute;inset:-10%;background:radial-gradient(circle at 70% 50%,#2a0a0c,var(--bk) 65%)}
+.perf-bg{position:absolute;inset:-10%;background:linear-gradient(rgba(8,8,8,.45),rgba(8,8,8,.8)),url('https://github.com/user-attachments/assets/72b60556-aaf1-4e2b-948c-65e5c637c2ce') center/cover}
 .perf-bg::after{content:attr(data-ph);position:absolute;bottom:90px;left:50%;transform:translateX(-50%);font:600 .65rem Rajdhani;letter-spacing:.2em;color:#444;white-space:nowrap}
 .perf-lines{position:absolute;inset:0;width:100%;height:100%}.perf-lines path{fill:none;stroke:var(--rd);stroke-width:.15;stroke-dasharray:140;stroke-dashoffset:140}
 .perf-txt{position:relative;padding:0 clamp(20px,6vw,90px);max-width:720px;z-index:2}.perf-txt h2{font-size:clamp(2.8rem,8vw,7rem)}.perf-txt .t2{opacity:0}
@@ -75,3 +75,7 @@ h1{font-size:clamp(2.4rem,7.2vw,6.6rem);margin-bottom:1.6rem}.ln{display:block;o
 .ig-row{grid-template-columns:1fr 1fr}.scroll-ind{display:none}.perf{height:260vh}.wheel{opacity:.45;right:-30%;width:90vw;margin-top:-45vw}}
 @media(max-width:560px){.cards,.dif-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.ln>span,[data-reveal],.hero-a,.card,.dif-grid>div,.perf-txt .t2{transform:none!important;opacity:1!important}.hero-bg,.img-reveal{clip-path:none!important}.loader{display:none}.perf-lines path{stroke-dashoffset:0}}
+
+.foot .social{display:flex;gap:1rem;margin-bottom:.4rem}
+.foot .social a{color:var(--wh);display:inline-flex}
+.foot .social a:hover{color:var(--rd)}
