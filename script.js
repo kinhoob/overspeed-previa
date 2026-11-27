@@ -27,7 +27,7 @@ const CONFIG = {
     const p = img.closest('.ph'); p && p.classList.add('nofile');
     img.onload = () => p && p.classList.remove('nofile');
     img.onerror = () => img.remove();
-    img.loading = 'lazy'; img.src = img.dataset.src;
+    img.src = img.dataset.src;
   });
 
   // Menu mobile
