@@ -1,7 +1,7 @@
 /* ===== CONFIG — edite aqui os dados reais ===== */
 const CONFIG = {
-  address: "",   // ex: "Rua X, 123 - Bairro, Recife - PE"
-  whatsapp: ""   // ex: "5581999999999" (somente números)
+  address: "Rua Itacari 217, Recife - PE",
+  whatsapp: "5581996579577"
 };
 /* ============================================== */
 (() => {
